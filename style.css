@@ -1,5 +1,18 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 button {
@@ -7,6 +20,19 @@ button {
     background-color: rgb(212, 212, 212);
     border-radius: 5px;
     box-shadow: 0 3px gray;
+    margin: 2px;
+}
+
+
+.operator, 
+.digit, 
+#equals,
+#clearLast {
+    width: 20%;
+}
+
+#clear {
+    width: 70%;
 }
 
 .display {
@@ -15,6 +41,7 @@ button {
     padding: 10px;
     text-align: right;
     background-color: rgb(84, 126, 84);
+    margin-bottom: 13px;
 }
 
 .calcContainer {
@@ -22,8 +49,9 @@ button {
     border-radius: 10px;
     padding: 10px;
     background-color: rgb(175, 175, 175);
+    width: 300px;
 }
 
 .buttonContainer {
-    display: flex;
+    display: inline-block;
 }
