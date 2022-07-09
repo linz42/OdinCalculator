@@ -1,13 +1,11 @@
 function digitSelector() {
-    //create listener for digits being pushed and add number to the appropriate variable
+    // create listener for digits being pushed and add number to the
+    // appropriate variable
 }
 
 function createA () {
-
-}
-
-function createB () {
-
+    // create listener function for button presses
+    // with switch statement for type of button
 }
 
 function addition(a, b) {
@@ -31,9 +29,10 @@ function divide (a, b) {
 }
 
 function clearLastClick() {
-    
+    // clear last input
+
 }
 
 function clearCalc() {
-
+    // clear whole calc
 }
